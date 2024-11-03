@@ -1,0 +1,488 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    font-family: Poppins,sans-serif;
+
+}
+
+body{ background: #FAF4F2;
+    color: #222;
+
+}
+.color_white{
+    color:#F9F9F9;
+}
+.background_white{
+    background:#F9F9F9;
+}
+.background_orange{
+    background: #FF7315;
+}
+
+main{
+    width: 1440px;
+
+}
+
+.Logo{
+    width: 40px;
+    height: 27px;
+
+    font-size: 18px;
+    font-weight: 500;
+    margin: 36px 1378px auto 22px ;
+}
+/*------------------------------Section Name----------------------------------------------*/
+
+.wrap_About_Me{
+    margin: auto 150px auto 150px ;
+}
+
+.Name{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 26px 0 32px;
+
+}
+
+.textName h1{
+    width: 475px;
+    color: #222;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 62px;
+    margin: 12px 34px 7px 0;
+
+}
+
+.textName p{
+    width: 509px;
+    height: 144px;
+    color: #222;
+    font-size: 18px;
+    line-height: 30px;
+
+
+}
+
+.circleName img{
+    margin: 54px 269px 25px 0;
+
+}
+
+.buttonName{
+    display: flex;
+    gap: 30px;
+
+}
+
+.buttonRed{
+    width: 151px;
+    height: 55px;
+    border-radius: 10px;
+    background: #FF2950;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.buttonOrangeBorder{
+    width: 153px;
+    height: 55px;
+    border-radius: 10px;
+    border: 2px solid #FF9B70;
+    color: rgba(34, 34, 34, 0.50);
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+/*------------------------------------- Section GladHelp-------------------------------------------*/
+.GladHelp{
+    height: 519px;
+    border-radius: 35px;
+    margin-top: 125px;
+    display: flex;
+
+}
+
+.ImgGladHelp{
+    margin: 93px 32px 97px 32px;
+
+}
+
+.TextGladHelp{
+    width: 570px;
+    margin: 62px 76px 63px 0;
+
+}
+
+.TextGladHelp h2{
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 62px;
+    margin-bottom:  16px ;
+
+}
+
+.TextGladHelp h4{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    margin-bottom: 19px;
+
+}
+
+.TextGladHelp h3{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px;
+    margin-bottom: 19px;
+}
+
+.GladHelp>.TextGladHelp>p{
+    font-size: 24px;
+    line-height: 45px;
+
+}
+/*-----------------------------------------------Section  Why Hire me?--------------------------*/
+.WhyHireMe{
+    margin-bottom: 125px;
+
+}
+
+.WhyHireMe>h2{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px;
+    margin: 125px auto 100px auto;
+
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.item>div{
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    background-color: rgba(34, 34, 34, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.item>h5{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    margin: 51px auto 12px auto;
+
+}
+
+.item>p{
+    width: 240px;
+    color: rgba(34, 34, 34, 0.50);
+    text-align: center;
+    /* Body Text */
+    font-size: 18px;
+    line-height: 30px;
+
+}
+/*--------------------------------------------Section Portfolio------------------------------------*/
+.Portfolio>h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 123.6%;
+
+}
+
+.ImagePortfolio{
+    display: grid;
+    grid-template-columns: repeat(3,310px);
+    grid-template-rows: repeat(2,300px);
+    gap: 24px;
+    margin: 64px 81px 125px 81px;
+
+}
+/*---------------------Section I'mLoved-------------------------------------------------------------*/
+.ImLoved{
+    display: flex;
+
+}
+
+.LovedWrap{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 111px;
+    margin: 48px auto 185px auto;
+
+}
+
+.LovedWrap>h2{
+    width: 609px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+
+}
+.LovedText{
+    display: flex;
+    gap:82px;
+
+}
+
+.LovedText>div{
+    width: 529px;
+    height: 179px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.text{
+    width: 419px;
+    color: #222;
+    font-size: 24px;
+    margin-top: 24px;
+}
+/*--------------------------------------------------Section Price--------------------------------------------*/
+
+.wrapPriceAndBlog{
+    margin: auto 150px auto 150px ;
+
+}
+
+.pricePlans{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.pricePlans h2{
+    color:  #222;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 123.6%;
+    margin: 125px auto 64px auto;
+
+}
+
+.cardsPrice{
+    display: flex;
+    gap: 68px;
+
+}
+
+.card{
+    width: 335px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 0 20px 40px 0 rgba(255, 115, 21, 0.10);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+.card>.OrangeHeader>h4{
+    width: 335px;
+    height: 66px;
+    border-radius: 15px 15px 0 0;
+    background: #FF9B70;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 123.6%;
+}
+
+.card>.price{
+
+    margin: 36px auto 29px auto;
+
+}
+
+.card>.price>h5{
+    color:  #2B2B2B;
+    font-size: 32px;
+    line-height: 123.6%;
+
+}
+
+.card>.price>h5>span{
+    color:  #2B2B2B;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 0.5;
+
+}
+
+.card>.ulInCard{
+    width: 210px;
+    margin: 0 80px 24px 48px;
+
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.card>div>ul>li{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+    display: flex;
+}
+
+.card>div>ul>li::before{
+    content: "";
+    width: 24px;
+    background-image:  url('Img_AnD_Svg/Check.svg');
+    margin-right: 16px;
+    background-size: cover;
+
+}
+
+.card>.silver>ul>li:nth-child(n+3){
+    opacity: 0.5;
+
+}
+
+.card>.silver>ul>li:nth-child(n+3)::before{
+    content: "";
+    width: 24px;
+    background-image:  url('Img_AnD_Svg/Close.svg');
+    margin-right: 16px;
+    background-size: cover;
+
+}
+
+.card>.gold>ul>li:nth-child(n+5){
+    opacity: 0.5;
+
+}
+
+.card>.gold>ul>li:nth-child(n+5)::before{
+    content: "";
+    width: 24px;
+    background-image:  url('Img_AnD_Svg/Close.svg');
+    margin-right: 16px;
+    background-size: cover;
+
+}
+/*----------------------------------------Section Intrested working----------------------------*/
+.IntrestedWorking>div{
+    width: 1110px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px auto 125px auto;
+
+}
+
+.IntrestedWorking>div>p{
+    width: 343px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 62px;
+    margin: 50px 0 50px 75px;
+
+}
+
+.IntrestedWorking>div>button{
+    width: 259px;
+    border-radius: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 77px 100px 77px 0;
+
+}
+/*--------------------------------Section Blog--------------------------------------------*/
+.cardsBlog{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 125px;
+
+}
+
+.Blog>h2{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 62px;
+    margin-bottom: 48px;
+
+}
+
+.cardBlog{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 364px;
+    border-radius: 15px;
+    box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.07);
+
+}
+
+.cardBlog>img{
+    width: 250px;
+    height: 166px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin: 14px 10px 24px 10px;
+}
+
+.cardBlog>h4{
+    font-weight: 500;
+    line-height: 123.6%;
+    text-transform: capitalize;
+    margin-bottom: 12px;
+
+}
+
+.cardBlog>p{
+    width: 240px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+    opacity: 0.5;
+
+}
+/*----------------------------------------Footer------------------------------------*/
+footer{
+    width: 1440px;
+    background: #F1F1F1;
+    display: flex;
+
+}
+
+footer>p{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 64px 687px 79px 595px;
+
+}
